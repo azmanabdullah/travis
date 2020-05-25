@@ -1,3 +1,20 @@
+<?php
+class Welcome {
+
+  public function index() {
+    echo "halo dunia";
+  }
+
+}
+
+
+$home = new Home();
+
+
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +24,6 @@
   <title>Testing</title>
 </head>
 <body>
-  <h1>Halo dunia</h1>
+  <h1><?php echo $home->index(); ?></h1>
 </body>
 </html>
