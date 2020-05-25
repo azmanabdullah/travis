@@ -13,4 +13,4 @@ matrix:
     - php: hhvm
 
 script:
-  - phpunit Test/WelcomeTest.php
+  - vendor/bin/phpunit
