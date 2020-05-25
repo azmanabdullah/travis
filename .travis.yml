@@ -11,6 +11,3 @@ matrix:
     - php: hhvm
   allow_failures:
     - php: hhvm
-
-script:
-  - phpunit
