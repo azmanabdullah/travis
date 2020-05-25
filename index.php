@@ -1,16 +1,7 @@
 <?php
-class Welcome {
+require_once __DIR__.'/Welcome.php';
 
-  public function index() {
-    echo "halo dunia";
-  }
-
-}
-
-
-$home = new Home();
-
-
+$welcome = new Welcome();
 
 ?>
 
@@ -24,6 +15,6 @@ $home = new Home();
   <title>Testing</title>
 </head>
 <body>
-  <h1><?php echo $home->index(); ?></h1>
+  <h1><?php echo $welcome->index(); ?></h1>
 </body>
 </html>

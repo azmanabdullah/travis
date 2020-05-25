@@ -11,3 +11,6 @@ matrix:
     - php: hhvm
   allow_failures:
     - php: hhvm
+
+script:
+  - phpunit Test/WelcomeTest.php
