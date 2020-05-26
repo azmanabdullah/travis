@@ -19,4 +19,4 @@ install:
   - composer install
 
 script:
-  - phpunit WelcomeTest.php
+  - vendor/bin/phpunit WelcomeTest.php
