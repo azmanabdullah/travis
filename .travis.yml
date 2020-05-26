@@ -11,3 +11,12 @@ matrix:
     - php: hhvm
   allow_failures:
     - php: hhvm
+
+before-install:
+  - composer self-update
+
+install:
+  - composer install
+
+script:
+  - phpunit WelcomeTest.php
