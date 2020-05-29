@@ -1,6 +1,6 @@
 preset: recommended
 finder:
-exclude:
-  - "vendor"
-not-name:
-  - "*.php"
+  exclude:
+    - "vendor"
+  not-name:
+    - "*.php"
