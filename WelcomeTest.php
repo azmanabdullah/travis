@@ -10,6 +10,7 @@ class WelcomeTest extends TestCase
     {
         $wel = new Welcome();
 
+
         $this->assertEquals("Halo dunia", $wel->index());
     }
 }
