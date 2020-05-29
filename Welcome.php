@@ -1,10 +1,12 @@
 <?php
 
 
-class Welcome {
+class Welcome
+{
 
-  public function index() {
-    return "halo dunia";
+  public function index()
+  {
+    return "Halo dunia";
   }
 
 }

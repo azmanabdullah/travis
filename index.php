@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__.'/Welcome.php';
 
-$welcome = new Welcome()
+$welcome = new Welcome();
 
 ?>
 
