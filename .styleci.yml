@@ -1,0 +1,7 @@
+php:
+  preset: recommended
+  finder:
+    exclude:
+      - "vendor"
+    not-name:
+      - "*.php"
