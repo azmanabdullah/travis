@@ -1,7 +1,6 @@
-php:
-  preset: recommended
-  finder:
-    exclude:
-      - "vendor"
-    not-name:
-      - "*.php"
+preset: recommended
+finder:
+exclude:
+  - "vendor"
+not-name:
+  - "*.php"
