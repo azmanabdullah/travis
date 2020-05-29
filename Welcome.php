@@ -1,4 +1,5 @@
 <?php
+
 namespace Azman;
 
 class Welcome
